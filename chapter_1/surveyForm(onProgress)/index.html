@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Surver Form</title>
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form" action="">
+        <label id="name-label">
+            Name
+            <input id="name" type="text" required placeholder="Enter your name">
+        </label>
+        <label id="email-label">
+            Email
+            <input id="email" type="email" required placeholder="Enter your email">
+        </label>
+        <label id="number-label">
+        <!-- min and max -->
+            Age (optional)
+            <input id="number" type="number" placeholder="Age" min="10" max="99">
+        </label>
+        <label for="">
+            Which option best describes your current role?
+            <select name="" id="dropdown">
+                <option value="">Select current role</option>
+                <option value="1">Student</option>
+                <option value="2">Full Time Job</option>
+                <option value="3">Full Time Leaner</option>
+                <option value="4">Prefer Not to say</option>
+                <option value="5">Other</option>
+            </select>
+        </label>
+        <label for="">
+            <label>
+                <input type="radio" name="user-recommend" value="Definitely">
+                Definitely
+            </label>
+            <label>
+                <input type="radio" name="user-recommend" value="Maybe">
+                Maybe
+            </label>
+            <label>
+                <input type="radio" name="user-recommend" value="Not sure">
+                Not sure
+            </label>
+        </label>
+        <label for="">
+            <label for="">
+                <input type="checkbox" name="" id="" value="front-end-projects">
+                Front-end Projects
+            </label>
+            <label for="">
+                <input type="checkbox" name="" id="" value="back-end-brojects">
+                Back-end Projects
+            </label>
+            <label for="">
+                <input type="checkbox" name="" id="" value="data-visualization">
+                Data Visualization
+            </label>
+            <label for="">
+                <input type="checkbox" name="" id="" value="challenges">
+                Challenges
+            </label>
+            <label for="">
+                <input type="checkbox" name="" id="" value="open-source-community">
+                Open Source Community
+            </label>
+        </label>
+        <label for="">
+            Any comments or suggestions?
+            <textarea name="" id="" cols="30" rows="4" placeholder="Enter your comment here..."></textarea>
+        </label>
+        <input id="submit" type="submit">
+    </form>
+
+</body>
+</html>
